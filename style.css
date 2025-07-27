@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Libertinus+Mono&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+VN+Guides&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px 40px;
+  background-color:#BDAAAA;
+  
+}
+.site-menu-items a,
+.site-menu-items button{
+  color: black;
+}
+.site-header {
+  position: relative;
+  background-color: rgb(144 111 111);
+}
+.site-menu-items{
+  position: absolute;
+  background-color:rgb(204 189 189);
+  top: 100px;
+  right: 0;
+  margin-right: 150px;
+  padding: 20px 40px;
+  width: 300px;
+  border-radius: 20px;
+}
+.site-menu-items ul li {
+
+  text-decoration: none;
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+.site-menu-items  a{
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  margin-top: 10px;
+}
+.site-menu-items button{
+  width:90px;
+  letter-spacing: 2px;
+  border-radius: 8px;
+  border: none;
+  padding: 10px;
+  background-color:rgb(197, 187, 206);
+  cursor: pointer;
+
+}
+.site-menu-items button:focus{
+  background-color:  rgb(203, 235, 203);
+}
+.site-menu-items a:hover{
+color:crimson;
+}
